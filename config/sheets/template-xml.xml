@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<spreadsheet id="120hbrbQFLjnYyfu7nxJKYrXZ9NL-fxeJ-TsK05VMDio">
+    <sheets>
+        <sheet name="sheet1-xml">
+            <rows>
+                <row id="r1" caption="row1" value="'sheet2-xml'!{r1} + 'sheet3-xml'!{r1}"/>
+                <row id="r2" caption="row2" value="SUM('sheet2-xml'!{r2},'sheet3-xml'!{r3})"/>
+                <row id="r3" caption="row3" value="6"/>
+                <row id="r4" caption="row4" value="=9 * 3"/>
+                <row id="r5" caption="row5" value="false"/>
+                <row id="r6" caption="row6" value="file-value-xml"/>
+                <row id="r7" caption="row7"/>
+            </rows>
+        </sheet>
+        <sheet name="sheet2-xml">
+            <rows>
+                <row id="r1" caption="row1"/>
+                <row id="r2" caption="row2"/>
+                <row id="r3" caption="row3"/>
+                <row id="r4" caption="row4"/>
+            </rows>
+        </sheet>
+        <sheet name="sheet3-xml">
+            <rows>
+                <row id="r1" caption="row1"/>
+                <row id="r2" caption="row2"/>
+                <row id="r3" caption="row3"/>
+                <row id="r4" caption="row4"/>
+            </rows>
+        </sheet>
+    </sheets>
+</spreadsheet>
